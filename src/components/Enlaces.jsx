@@ -13,7 +13,7 @@ export const Enlaces = () => {
             rel="noopener noreferrer"
             aria-label={enlaces.texto}
           >
-            <IconEnlaces />
+            <IconEnlaces style={{ strokeWidth: 1.5 }} />
             <p>{enlaces.texto}</p>
           </a>
         );
