@@ -13,7 +13,7 @@ export const SocialMediaIcons = () => {
             rel="noopener noreferrer"
             aria-label={icon.label}
           >
-            <IconMedia />
+            <IconMedia style={{ strokeWidth: 1.5 }} />
           </a>
         );
       })}
