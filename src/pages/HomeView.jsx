@@ -1,18 +1,22 @@
 import PhotoEdelDev from "../assets/PERSONAL-FOTO-EDELDEV.webp";
-import "./index.css";
 import { Enlaces, SocialMediaIcons } from "../components";
+import "./index.css";
+import "../components/styles/tooltip.css";
 
 export const HomeView = () => {
   return (
     <>
       <header className="root">
         <hero className="container-home">
-          <img
-            src={PhotoEdelDev}
-            alt="Foto personal"
-            className="img-personal"
-            loading="lazy"
-          />
+          <div className="container__tooltip">
+            <img
+              src={PhotoEdelDev}
+              alt="Foto personal"
+              className="img-personal"
+              loading="lazy"
+            />
+            <span className="tooltip">Hola, bienvenido!</span>
+          </div>
         </hero>
         <main>
           <h1>Edel Ballesteros</h1>

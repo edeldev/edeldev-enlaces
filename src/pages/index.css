@@ -13,6 +13,7 @@
 }
 
 .img-personal {
+  position: relative;
   width: 10rem;
   height: auto;
   border-radius: 5rem;
